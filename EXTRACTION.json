@@ -1,0 +1,137 @@
+{
+  "status": "verified source bytes; documented adaptations only; ownership checked 2026-11-11 (owner only)",
+  "date": "2026-11-11",
+  "source": {
+    "repository": "private Morrowdock app repository",
+    "commit": "cf2ad712423ea388ff83afe3c482e69d97782886",
+    "path": "tools/morrowdock-cli/"
+  },
+  "notExported": [
+    "app Swift sources and the app copy of the catalog",
+    "private CI routing tests",
+    "private integration documents"
+  ],
+  "files": [
+    {
+      "path": "tools/morrowdock-cli/.gitignore",
+      "sourceSha256": "2041e6e636e19fc862bfaa0a508f72962728de014032ff4575c255051d14e763",
+      "sha256": "2041e6e636e19fc862bfaa0a508f72962728de014032ff4575c255051d14e763"
+    },
+    {
+      "path": "tools/morrowdock-cli/README.md",
+      "sourceSha256": "c056496e70c209046be1ac5b36e5fff6700da818c89af09efef8fb80033199cd",
+      "sha256": "4f1e48e31b63a0e64986f8af165957d1dbad0100df9786af629314228f43b764",
+      "adaptation": "replace the private progress-doc link with a one-sentence description of the progress envelope; clarify that project CI scaffolds run after the learner publishes and that the app catalog copy is written only in the source repository"
+    },
+    {
+      "path": "tools/morrowdock-cli/build_catalog.py",
+      "sourceSha256": "17f053b6e86314182f2afbaa9d3d1d15f8c1182eb97cc69aee2d5c98e6a118d0",
+      "sha256": "cf1a5899e2eaec4813d59c63994a6ec173d479baff249883d100b25120cdfcb7",
+      "adaptation": "write the app copy of the catalog only when the app folder exists"
+    },
+    {
+      "path": "tools/morrowdock-cli/enhance_catalog.py",
+      "sourceSha256": "00011a5974cbd1989630725b25c85290496673635d541bff40e6a2bd7ab971e7",
+      "sha256": "00011a5974cbd1989630725b25c85290496673635d541bff40e6a2bd7ab971e7"
+    },
+    {
+      "path": "tools/morrowdock-cli/gpt_taught_refs.py",
+      "sourceSha256": "1a0d4c5b7666837db64c8dafe79c0bf15b025a810b3bd28391f8003d55b0a179",
+      "sha256": "1a0d4c5b7666837db64c8dafe79c0bf15b025a810b3bd28391f8003d55b0a179"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/__init__.py",
+      "sourceSha256": "9a0d1fc74610a2e8f8d32ae559b8224017fe6bcf5b5b5cea2cb6d479d572907f",
+      "sha256": "9a0d1fc74610a2e8f8d32ae559b8224017fe6bcf5b5b5cea2cb6d479d572907f"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/catalog.json",
+      "sourceSha256": "4cb31b03236eefe9eea49dc2885e268dbea788ce432c576fd9d846cee39142a5",
+      "sha256": "4cb31b03236eefe9eea49dc2885e268dbea788ce432c576fd9d846cee39142a5"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/cli.py",
+      "sourceSha256": "273e142cb42b3323cdbb0a40baed250fb789e3ff28f92dadf5a7e72eab21bb4b",
+      "sha256": "273e142cb42b3323cdbb0a40baed250fb789e3ff28f92dadf5a7e72eab21bb4b"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/portfolio.py",
+      "sourceSha256": "cbf6b25a87a75da3d5f1b4664f25e4a43bbcc53d2fa6f6d52d27185d4b28592e",
+      "sha256": "cbf6b25a87a75da3d5f1b4664f25e4a43bbcc53d2fa6f6d52d27185d4b28592e"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_gpt_v2.py",
+      "sourceSha256": "0c831a4b688ba01a39639a2f09159d6f118dd51e083a9afbd25060bcac20ff8b",
+      "sha256": "0c831a4b688ba01a39639a2f09159d6f118dd51e083a9afbd25060bcac20ff8b"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_quality_v2.py",
+      "sourceSha256": "5d7ad7a3f2bb771420959bd771ca64d204b1975c46d414a8405e839594d2bcee",
+      "sha256": "5d7ad7a3f2bb771420959bd771ca64d204b1975c46d414a8405e839594d2bcee"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_shell_v2.py",
+      "sourceSha256": "d481d9fb4fa8beb6a4b263e640073c41bade2789f6129d73cc4b7cbd7ab28a62",
+      "sha256": "d481d9fb4fa8beb6a4b263e640073c41bade2789f6129d73cc4b7cbd7ab28a62"
+    },
+    {
+      "path": "tools/morrowdock-cli/pyproject.toml",
+      "sourceSha256": "55005448c02d731b0a6855213eda2358b5326df51bf18314b1b4043d6d570092",
+      "sha256": "10a62c43b73b8902357cb97cbe2dd595d893544772097746889cb53e55e5dc76",
+      "adaptation": "add PEP 639 license = \"Apache-2.0\" and license-files = [\"LICENSE\", \"NOTICE\"]; require setuptools>=77 (first PEP 639 support)"
+    },
+    {
+      "path": "tools/morrowdock-cli/shell_taught_refs.py",
+      "sourceSha256": "546e67edd1b91a7bd2ad81a2343432a2853f0bd5cab7054ed8bf07b854e28448",
+      "sha256": "546e67edd1b91a7bd2ad81a2343432a2853f0bd5cab7054ed8bf07b854e28448"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/fixtures/projects-094413d2-manifest.json",
+      "sourceSha256": "9c910ec57070cb32d89f3fa2da6473eb46f2fb65f3aadc350138edc0d7fc0c5b",
+      "sha256": "9c910ec57070cb32d89f3fa2da6473eb46f2fb65f3aadc350138edc0d7fc0c5b"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_bigram_quality.py",
+      "sourceSha256": "22c68644e15a33a52fd36e140f3f69822a79285dd47b47695faea60259571c46",
+      "sha256": "22c68644e15a33a52fd36e140f3f69822a79285dd47b47695faea60259571c46"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_cli.py",
+      "sourceSha256": "d9e990230b2af306952e90022cab137cb7cfdf0e777b085d609d88e961f3df75",
+      "sha256": "7c0329274d8aa92c6ec2385256ae0f6eb2bab2c59ddeffb277d77593c8785d7a",
+      "adaptation": "skip the app-catalog parity test when the app copy is absent"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_gpt_taught.py",
+      "sourceSha256": "6a48564433c4941a7b57b29594db4ccc05175b82688fbad4d9d24fbe4b1cc4b2",
+      "sha256": "bb9b6f6d7b515e8042ec1c4b167decbb895cbdf38cbcf3650c35c1fa89feab28",
+      "adaptation": "guard the app-catalog comparison, skip the Swift-test parity check when absent, describe two test docstrings by behavior only"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_portfolio.py",
+      "sourceSha256": "c1dde1ede0d5b50805226bd3f5feebc934ccd2fb92cfc959d3c5b16defae937c",
+      "sha256": "c1dde1ede0d5b50805226bd3f5feebc934ccd2fb92cfc959d3c5b16defae937c"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_taught_pathway.py",
+      "sourceSha256": "8a4e051a14a42903720cec408d36f83a418f74118d79ce00ceb372539c9f09a1",
+      "sha256": "e14ff1f32a4e5302f16eb729c44b6ce9a5139784f02a267061662114dfbac9ff",
+      "adaptation": "guard the app-catalog comparison when the app copy is absent"
+    },
+    {
+      "path": "tools/morrowdock-cli/torch_path.py",
+      "sourceSha256": "47775fda8c701828ba7675ccf7506a090925fb9ab1f1c9125815d331631807fd",
+      "sha256": "47775fda8c701828ba7675ccf7506a090925fb9ab1f1c9125815d331631807fd"
+    }
+  ],
+  "addedFiles": [
+    {
+      "path": "tools/morrowdock-cli/LICENSE",
+      "note": "copy of the root LICENSE so the wheel carries it (PEP 639 license-files must be inside the project folder)"
+    },
+    {
+      "path": "tools/morrowdock-cli/NOTICE",
+      "note": "copy of the root NOTICE, same reason"
+    }
+  ]
+}

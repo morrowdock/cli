@@ -1,0 +1,41 @@
+name: validation
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: tools/morrowdock-cli/tests
+      PYTHONUTF8: '0'
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Install Lua 5.4 as lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.4
+          command -v lua >/dev/null || sudo ln -s "$(command -v lua5.4)" /usr/local/bin/lua
+          lua -e 'assert(_VERSION == "Lua 5.4", "Projects requires Lua 5.4 as lua")'
+      - name: Install the CLI and portfolio extra with pinned versions
+        run: python -m pip install -c tools/morrowdock-cli/ci-constraints.txt './tools/morrowdock-cli[portfolio]'
+      - name: Run all CLI tests
+        run: python -m unittest discover -s tools/morrowdock-cli/tests -v
+      - name: Regenerate the catalog and require no drift
+        run: |
+          python tools/morrowdock-cli/build_catalog.py
+          git diff --exit-code -- tools/morrowdock-cli/morrowdock_cli/catalog.json
+      - run: git diff --check
+      - if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python3 tools/check_dco.py "$BASE_SHA" "$HEAD_SHA"

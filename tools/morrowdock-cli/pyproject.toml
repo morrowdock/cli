@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morrowdock-cli"
+version = "0.1.0"
+description = "Local, learner-owned build-something projects"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = ["cryptography>=41", "numpy>=1.24"]
+
+[project.optional-dependencies]
+portfolio = ["pytest>=8", "pytest-cov>=5", "ruff>=0.6", "mypy>=1.10"]
+gpu = ["torch>=2"]
+qr = ["qrcode[pil]>=7"]
+
+[project.scripts]
+morrowdock = "morrowdock_cli.cli:main"
+
+[tool.setuptools.package-data]
+morrowdock_cli = ["catalog.json"]

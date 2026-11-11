@@ -1,0 +1,56 @@
+{
+  "baseline": "094413d21fa4c3c99899d273bcf5ca256316f75c",
+  "canonicalEncoding": "UTF-8 JSON with sort_keys=True, ensure_ascii=False and separators=(comma, colon)",
+  "series": [
+    {
+      "id": "gpt",
+      "sha256": "bbcbd1ef375bf60dc44b9fff0834614fa12f63cabecd8ca0d9cfe43ea41e3608",
+      "stageIDs": [
+        "gpt-1",
+        "gpt-2",
+        "gpt-3",
+        "gpt-4",
+        "gpt-5",
+        "gpt-6"
+      ]
+    },
+    {
+      "id": "shell",
+      "sha256": "bca7cbe9dbf7b05277f22ea455a99857b11fb4a2d309a40bfb680a37782c8f2a",
+      "stageIDs": [
+        "shell-1",
+        "shell-2",
+        "shell-3",
+        "shell-4"
+      ]
+    },
+    {
+      "id": "agent",
+      "sha256": "42eefc2c3d3c336e63ba603c91b2902b4534bf7ac17c58d8ac2510e0ea6bc79f",
+      "stageIDs": [
+        "agent-1"
+      ]
+    },
+    {
+      "id": "autopilot",
+      "sha256": "443cd30f51a85510ede7ec2c8941bbccf3c275e6a2d7e88d4f292464ef48faa5",
+      "stageIDs": [
+        "autopilot-1"
+      ]
+    },
+    {
+      "id": "game",
+      "sha256": "45f37b4374fca7ba910612340c8bc9e96aadd9fda6c7cdcc317012659b321732",
+      "stageIDs": [
+        "game-1"
+      ]
+    },
+    {
+      "id": "contributions",
+      "sha256": "351fc940e92fc9924f75a420635ea91312e493c7a46102278a03f30017403b08",
+      "stageIDs": [
+        "contributions-1"
+      ]
+    }
+  ]
+}

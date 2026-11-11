@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-11",
+  "status": "fresh-history early-preview inventory",
+  "note": "Lists every tracked file except FILES.json itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.md",
+      "sha256": "fa6bcc8cfdfe1e97cc2e0b530eae03d351ebe58c505736307d37086c82e50781"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "66b1903e2b621be33b6656733d7805e2a2b7601fb9735478cb6050fed6508149"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "f1dc596aaf27271cb8d168031e0089ec0dfa4554a9d74b95c7772addaad15734"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "98f276d1503b9e2b5b3213d298e24146d314d0010f91d4f84e1430c5f9aba08a"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "01310ef0b17bdb7d1d79faddcf3b30aee50888dd9342c723ecfbc30cb5760f1c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "46657c7c0c47817396aad293ad2bf86ce7a01ef022b359fd8a105ae2a3cd8ed3"
+    },
+    {
+      "path": "DCO",
+      "sha256": "f7ac75b443f4ca16b503241344b41aeff9503b0c30bedc2b119551d83cb0fa90"
+    },
+    {
+      "path": "EXTRACTION.json",
+      "sha256": "75bba951fc224ff9c2b75208b6743b11ebdacdb65c900e57515869a36323fca6"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "33330edbf34e3ff2b7cd8814bdbcec9ef4cfe5f0c87afe641b2990c42c5956e0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "88beff9a52452b30966f608d7955877fea7f0e8cd92afb7e679d831b6207ddd8"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "9a2e1b57d39551928d491627a51b4329c4e5e5ef75a0af45439da0ffdca63b1a"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "sha256": "71bf1414c1afe34cc468f4454920c1868d0f15c2771d209dbb1fbbd9ceb3bc84"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "sha256": "3b68a24876df88327c3d84e7b048a9c7f071b19bf7f09c5039bd2aa709510ef1"
+    },
+    {
+      "path": "tools/check_dco.py",
+      "sha256": "d6f3693eebbc82a50402b89e4cbab9c3f8c73deae45fc30109cb4b10cfe1141f"
+    },
+    {
+      "path": "tools/morrowdock-cli/.gitignore",
+      "sha256": "2041e6e636e19fc862bfaa0a508f72962728de014032ff4575c255051d14e763"
+    },
+    {
+      "path": "tools/morrowdock-cli/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "tools/morrowdock-cli/NOTICE",
+      "sha256": "33330edbf34e3ff2b7cd8814bdbcec9ef4cfe5f0c87afe641b2990c42c5956e0"
+    },
+    {
+      "path": "tools/morrowdock-cli/README.md",
+      "sha256": "4f1e48e31b63a0e64986f8af165957d1dbad0100df9786af629314228f43b764"
+    },
+    {
+      "path": "tools/morrowdock-cli/build_catalog.py",
+      "sha256": "cf1a5899e2eaec4813d59c63994a6ec173d479baff249883d100b25120cdfcb7"
+    },
+    {
+      "path": "tools/morrowdock-cli/ci-constraints.txt",
+      "sha256": "0409c3a091e27016ad477cb1bea96edd06acdb5e7f90b03ec13b7291f48d4dd3"
+    },
+    {
+      "path": "tools/morrowdock-cli/enhance_catalog.py",
+      "sha256": "00011a5974cbd1989630725b25c85290496673635d541bff40e6a2bd7ab971e7"
+    },
+    {
+      "path": "tools/morrowdock-cli/gpt_taught_refs.py",
+      "sha256": "1a0d4c5b7666837db64c8dafe79c0bf15b025a810b3bd28391f8003d55b0a179"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/__init__.py",
+      "sha256": "9a0d1fc74610a2e8f8d32ae559b8224017fe6bcf5b5b5cea2cb6d479d572907f"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/catalog.json",
+      "sha256": "4cb31b03236eefe9eea49dc2885e268dbea788ce432c576fd9d846cee39142a5"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/cli.py",
+      "sha256": "273e142cb42b3323cdbb0a40baed250fb789e3ff28f92dadf5a7e72eab21bb4b"
+    },
+    {
+      "path": "tools/morrowdock-cli/morrowdock_cli/portfolio.py",
+      "sha256": "cbf6b25a87a75da3d5f1b4664f25e4a43bbcc53d2fa6f6d52d27185d4b28592e"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_gpt_v2.py",
+      "sha256": "0c831a4b688ba01a39639a2f09159d6f118dd51e083a9afbd25060bcac20ff8b"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_quality_v2.py",
+      "sha256": "5d7ad7a3f2bb771420959bd771ca64d204b1975c46d414a8405e839594d2bcee"
+    },
+    {
+      "path": "tools/morrowdock-cli/projects_shell_v2.py",
+      "sha256": "d481d9fb4fa8beb6a4b263e640073c41bade2789f6129d73cc4b7cbd7ab28a62"
+    },
+    {
+      "path": "tools/morrowdock-cli/pyproject.toml",
+      "sha256": "10a62c43b73b8902357cb97cbe2dd595d893544772097746889cb53e55e5dc76"
+    },
+    {
+      "path": "tools/morrowdock-cli/shell_taught_refs.py",
+      "sha256": "546e67edd1b91a7bd2ad81a2343432a2853f0bd5cab7054ed8bf07b854e28448"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/fixtures/projects-094413d2-manifest.json",
+      "sha256": "9c910ec57070cb32d89f3fa2da6473eb46f2fb65f3aadc350138edc0d7fc0c5b"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_bigram_quality.py",
+      "sha256": "22c68644e15a33a52fd36e140f3f69822a79285dd47b47695faea60259571c46"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_cli.py",
+      "sha256": "7c0329274d8aa92c6ec2385256ae0f6eb2bab2c59ddeffb277d77593c8785d7a"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_gpt_taught.py",
+      "sha256": "bb9b6f6d7b515e8042ec1c4b167decbb895cbdf38cbcf3650c35c1fa89feab28"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_portfolio.py",
+      "sha256": "c1dde1ede0d5b50805226bd3f5feebc934ccd2fb92cfc959d3c5b16defae937c"
+    },
+    {
+      "path": "tools/morrowdock-cli/tests/test_taught_pathway.py",
+      "sha256": "e14ff1f32a4e5302f16eb729c44b6ce9a5139784f02a267061662114dfbac9ff"
+    },
+    {
+      "path": "tools/morrowdock-cli/torch_path.py",
+      "sha256": "47775fda8c701828ba7675ccf7506a090925fb9ab1f1c9125815d331631807fd"
+    }
+  ]
+}
